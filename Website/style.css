@@ -1,0 +1,286 @@
+*{
+    margin:0;
+    padding:0;font-family: sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    scrollbar-width: none;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(Images/pexels-mihis-alex-21008.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0%;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #66FF66;
+    position: absolute;
+    left: 0%;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.ME{
+    height: 25%;
+    width: 15%;
+    position: relative;
+    left: 43%;
+    top: 100px;
+}
+
+
+.content h1 {
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: 110px;
+}
+
+.content h2{
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: 10vw;
+    font-size: 15px;
+}
+
+.biography{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(Images/bio.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.biography img {
+    width: 20%;
+    height: 50%;
+    position: relative;
+    left: 10%;
+    top: 18%;
+}
+
+.biography h1{
+    background: rgba(112, 112, 112, 0.5);
+    border-radius: 4vw;
+    width: 30%;
+    height: 5vw;
+    margin: auto;
+    position: relative;
+    top: 5vw;
+    text-align: center;
+    color: #fff;
+    padding-top: 3%;
+}
+
+.bio2 p {
+    position: relative;
+    bottom: 38vw;
+    left: 14%;
+    text-align: left;
+    color: #fff;
+    font-size: 25px;
+    background: rgba(112, 112, 112, 0.8);
+    border-radius: 1vw;
+    width: 50%;
+    padding: 2% 2% 7% 2%;
+    height: 5vw;
+    margin: 20%;
+}
+
+/* .bio2 p:first-of-type{
+    position: relative;
+    bottom: 38vw;
+    left: 14%;
+    text-align: left;
+} */
+
+.bio2 p:nth-of-type(2){
+    position: relative;
+    bottom: 57vw;
+
+
+}
+
+.work{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(Images/pexels-oleksandr-pidvalnyi-345522.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.work h1{
+    background: rgba(112, 112, 112, 0.5);
+    border-radius: 4vw;
+    width: 30%;
+    height: 5vw;
+    margin: auto;
+    position: relative;
+    top: 5vw;
+    text-align: center;
+    color: #fff;
+    padding-top: 3%;
+}
+
+.work img:first-of-type{
+    width: 25%;
+    position: relative;
+    left: 70%;
+    top: 42%;
+}
+
+.work img:nth-of-type(2){
+    width: 15%;
+    height: auto;
+    position: relative;
+    right: 10%;
+    top: 10%;
+
+}
+
+.work p{
+    text-align: left;
+    color: #fff;
+    font-size: 25px;
+    background: rgba(112, 112, 112, 0.8);
+    border-radius: 1vw;
+    width: 50%;
+    height: 5vw;
+    margin: 20%;
+}
+
+.work p:first-of-type{
+    padding: 2% 2% 11% 2%;
+    position: relative;
+    bottom: 34vw;
+    left: 14%;
+}
+
+.work p:nth-of-type(2){
+    padding: 2% 2% 9% 2%;
+    position: relative;
+    right: 7%;
+    bottom: 88%;
+}
+
+
+.contact{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(Images/pexels-daniel-absi-952670.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.contact h1{
+    background: rgba(112, 112, 112, 0.5);
+    border-radius: 4vw;
+    width: 30%;
+    height: 5vw;
+    margin: auto;
+    position: relative;
+    top: 5vw;
+    text-align: center;
+    color: #fff;
+    padding-top: 3%;
+}
+
+.git{
+    width:5%;
+    position: relative;
+    left: 35%;
+    top: 13%;
+}
+
+.gmail{
+    width: 5%;
+    position: relative;
+    left: 30%;
+    top: 34%;
+}
+
+.linke{
+    width: 5%;
+    position: relative;
+    left: 25%;
+    top: 54%;
+}
+
+.gi{
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    left: 42%;
+    top: 29%;
+}
+
+.lin{
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    left: 42%;
+    top: 64%;
+}
+
+.gma{
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    left: 42%;
+    top: 40%;
+}
+
+.gg{
+    text-decoration: none;
+}
+
+
+
+
+
